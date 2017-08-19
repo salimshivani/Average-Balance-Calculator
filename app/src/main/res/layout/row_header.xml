@@ -38,21 +38,21 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/average_balance"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:text="@string/average_balance"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/closing_balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:text="@string/closing_balance"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/average_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/average_balance"
                 android:textStyle="bold" />
 
         </LinearLayout>

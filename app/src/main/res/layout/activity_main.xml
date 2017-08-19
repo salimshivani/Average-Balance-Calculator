@@ -18,11 +18,13 @@
         android:id="@+id/account_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberSigned"
         android:layout_margin="4dp"
-        android:textSize="16sp"
         android:background="@drawable/background_edittext"
-        android:hint="@string/account_number" />
+        android:hint="@string/account_number"
+        android:inputType="numberSigned"
+        android:textSize="16sp" />
+
+    <include layout="@layout/row_header" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/balance_calculator"
