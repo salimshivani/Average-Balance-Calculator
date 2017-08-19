@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Average Balance Calculator</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="opening_balance">Opening Balance</string>
+    <string name="closing_balance">Closing Balance</string>
+    <string name="average_balance">Average Balance</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="account_number">Account Number</string>
+</resources>
