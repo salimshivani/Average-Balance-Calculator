@@ -17,19 +17,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:weightSum="4">
+            android:weightSum="2">
 
-            <EditText
+            <TextView
                 android:id="@+id/date_item"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_edittext"
+                android:layout_weight="0.2"
                 android:hint="@string/date"
                 android:textSize="14sp" />
 
-            <EditText
+            <!--android:background="@drawable/background_edittext"-->
+
+            <!--<EditText
                 android:id="@+id/opening_balance_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -37,27 +38,29 @@
                 android:layout_weight="1"
                 android:background="@drawable/background_edittext"
                 android:hint="@string/amount"
-                android:textSize="14dp" />
+                android:textSize="14dp" />-->
 
             <EditText
                 android:id="@+id/closing_balance_item"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:layout_weight="1"
+                android:layout_weight="0.9"
                 android:background="@drawable/background_edittext"
-                android:hint="@string/amount"
+                android:hint="@string/closing_balance"
+                android:inputType="numberDecimal"
                 android:textSize="14sp" />
 
             <EditText
                 android:id="@+id/average_balance_item"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:layout_weight="1"
+                android:layout_weight="0.9"
                 android:background="@drawable/background_edittext"
-                android:hint="@string/amount"
-                android:textSize="14dp" />
+                android:hint="@string/average_balance"
+                android:inputType="numberDecimal"
+                android:textSize="14sp" />
 
         </LinearLayout>
 
